@@ -10,7 +10,7 @@ from impacket.smbconnection import SMBConnection
 class SMBEnumeratorApp(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title(" |SMB_ENUM_IMPACKE|Hacking Alchemy|")
+        self.title(" |SMB_ENUM_IMPACKET Alchemy|")
         self.geometry("900x700")
         self.configure(bg="#111111")
         self.create_widgets()
